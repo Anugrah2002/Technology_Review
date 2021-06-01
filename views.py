@@ -9,7 +9,7 @@ from gtts import gTTS
 import random
 import settings
 import requests, json, datetime 
-from uploadfiletoheroku import *
+from uploadfiletoytserver import *
 
 
 
