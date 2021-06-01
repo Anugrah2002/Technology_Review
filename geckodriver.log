@@ -1,0 +1,209 @@
+1622378126850	geckodriver	INFO	Listening on 127.0.0.1:58881
+1622378126874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledot94b"
+Error: no DISPLAY environment variable specified
+1622378137202	geckodriver	INFO	Listening on 127.0.0.1:58890
+1622378137226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRSMMAc"
+Error: no DISPLAY environment variable specified
+1622378254443	geckodriver	INFO	Listening on 127.0.0.1:58905
+1622378254466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexmzA5F"
+Error: no DISPLAY environment variable specified
+1622378258593	geckodriver	INFO	Listening on 127.0.0.1:58914
+1622378258631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX92hfM"
+Error: no DISPLAY environment variable specified
+1622379095169	geckodriver	INFO	Listening on 127.0.0.1:63129
+1622379095193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--homepage \"data:,\"" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevysQXv"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+1622379097171	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0039,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 2651, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-g99BAt/firefox-88.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A005F,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0039,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 2651, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-g99BAt/firefox-88.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0039,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 2651, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-g99BAt/firefox-88.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0039,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 2651, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-g99BAt/firefox-88.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0039,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 2651, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-g99BAt/firefox-88.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0027,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Exiting due to channel error.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Exiting due to channel error.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: Attempt to use XPI database when it is not initialized"
+console.error: "Could not load engine bing@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: region-update-timer
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+1622379410229	geckodriver	INFO	Listening on 127.0.0.1:52689
+1622379413326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileaz2gga"
+*** You are running in headless mode.
+1622379413809	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622379415282	Marionette	INFO	Listening on port 52697
+1622379415365	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622379417826	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Listening on 127.0.0.1:52770
+1622379478205	geckodriver	INFO	Listening on 127.0.0.1:52777
+1622379481255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofile6AShOw"
+1622379481718	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622379484243	Marionette	INFO	Listening on port 52787
+1622379484381	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622379488202	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622379738740	Marionette	INFO	Stopped listening on port 52787
+1622379748361	geckodriver	INFO	Listening on 127.0.0.1:53085
+1622379751475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileAtMWz1"
+1622379751977	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622379754705	Marionette	INFO	Listening on port 53094
+1622379755151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622379758889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1622379941426	Marionette	INFO	Stopped listening on port 53094
+1622379946283	geckodriver	INFO	Listening on 127.0.0.1:63553
+1622379949377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileQ4H6id"
+1622379949945	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622379952652	Marionette	INFO	Listening on port 63561
+1622379953009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622379956752	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1622379981812	Marionette	INFO	Stopped listening on port 63561
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622380038970	geckodriver	INFO	Listening on 127.0.0.1:62346
+1622380042064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofilezVRae4"
+1622380042586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622380045276	Marionette	INFO	Listening on port 62354
+1622380045746	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622380050116	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1622380182287	Marionette	INFO	Stopped listening on port 62354
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622380204432	geckodriver	INFO	Listening on 127.0.0.1:51935
+1622380207524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileXxAGZu"
+1622380208050	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622380210700	Marionette	INFO	Listening on port 51943
+1622380211185	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622380214495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622380233464	Marionette	INFO	Stopped listening on port 51943
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622380237677	geckodriver	INFO	Listening on 127.0.0.1:51431
+1622380240758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileLTegC1"
+1622380241287	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622380244086	Marionette	INFO	Listening on port 51439
+1622380244433	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622380247343	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622380266544	Marionette	INFO	Stopped listening on port 51439
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622380289890	geckodriver	INFO	Listening on 127.0.0.1:51541
+1622380292999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileHpD7KH"
+1622380293526	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622380296029	Marionette	INFO	Listening on port 51549
+1622380296139	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622380299661	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622380314690	Marionette	INFO	Stopped listening on port 51549
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622380323464	geckodriver	INFO	Listening on 127.0.0.1:62744
+1622380326545	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofileyMFazc"
+1622380327061	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622380329694	Marionette	INFO	Listening on port 62752
+1622380330226	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Skipping for logged out.
+1622380333585	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622380348790	Marionette	INFO	Stopped listening on port 62752
+1622380382106	geckodriver	INFO	Listening on 127.0.0.1:62858
+1622380385243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--homepage \"data:,\"" "-foreground" "-no-remote" "-profile" "C:\\Users\\anugr\\AppData\\Local\\Temp\\rust_mozprofile9h0vg0"
+1622380385758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622380388288	Marionette	INFO	Listening on port 62866
+1622380388380	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622380392180	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1622381288949	Marionette	INFO	Stopped listening on port 62866
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
