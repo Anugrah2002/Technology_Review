@@ -22,7 +22,7 @@ jobs:
     steps:
     - name: Successful
       id: hello
-      uses: anugrah2002/Technology_Review@master
+      uses: anugrah2002/botyoutube@master
 
 # name: Do things every 10 minutes
 # on:
