@@ -4,6 +4,7 @@
 
 name: youtube Technology_Review bot
 
+on: [push]
 name: Cron Job
 on:
   schedule:
