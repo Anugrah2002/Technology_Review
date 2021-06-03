@@ -4,11 +4,11 @@
 
 name: youtube Technology_Review bot
 
-# on: [push]
-name: Do things every 10 minutes
-on:
-  schedule:
-    - cron: "*/10 * * * *"
+on: [push]
+  name: Do things every 10 minutes
+  on:
+   schedule:
+      - cron: "*/10 * * * *"
 # on:
 #   push:
 #     branches: [ master ]
