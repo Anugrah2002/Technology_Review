@@ -4,7 +4,7 @@
 
 name: youtube Technology_Review bot
 
-on: [push]
+# on: [push]
 name: Do things every 10 minutes
 on:
   schedule:
