@@ -4,8 +4,10 @@
 
 name: youtube Technology_Review bot
 on:
+  push:
+     branches: [ master ]
   schedule:
-    - cron: '* * * * *'
+   - cron: '* * * * *'
 # on:
 #   push:
 #     branches: [ master ]
