@@ -4,6 +4,7 @@
 
 name: youtube Technology_Review bot
 
+name: Cron Job
 on:
   schedule:
     - cron: "*/2 * * * *"
