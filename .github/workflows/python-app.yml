@@ -3,9 +3,6 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: youtube Technology_Review bot
-
-on: [push]
-name: Cron Job
 on:
   schedule:
     - cron: "* * * * *"
