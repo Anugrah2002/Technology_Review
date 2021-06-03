@@ -3,10 +3,11 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: youtube Technology_Review bot
-
 on:
+  push:
+     branches: [ master ]
   schedule:
-    - cron: "*/2 * * * *"
+   - cron: '* * * * *'
 # on:
 #   push:
 #     branches: [ master ]
