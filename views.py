@@ -8,6 +8,7 @@ import shutil
 from gtts import gTTS
 import random
 import settings
+from ytuploader import *
 import requests, json, datetime 
 from uploadfiletoytserver import *
 
@@ -62,6 +63,16 @@ def requestVideo():
 
         #command = 'python ./bott/uploadToYT.py --file="'+str(p)+'" --title="'+YTtitle+'" --description="'+(summary+'\n'+credit)+'" --keywords="'+keywords+',hour news,news" --category="24" --privacyStatus="public" --noauth_local_webserver ' 
         uploadvideotoytserver(p,YTtitle)
+        
+        #Youtube Uploading Via Selenium
+        
+        video_path = p
+        
+        uploader = YouTubeUploader(video_path)#, metadata_path, thumbnail_path)
+        was_video_uploaded, video_id = uploader.upload()
+        print(was_video_uploaded)
+        print(video_id)
+        #End of Youtube Uploading
         
         #os.system(command) #comment this to stop uploading to youtube
         # shutil.rmtree(os.path.join(settings.BASE_DIR, r"dataset")) # comment this to stop removing the file from system
