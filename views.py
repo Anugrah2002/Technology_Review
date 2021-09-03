@@ -8,7 +8,7 @@ import shutil
 from gtts import gTTS
 import random
 import settings
-from ytuploader import *
+# from ytuploader import *
 import requests, json, datetime 
 from uploadfiletoytserver import *
 
