@@ -2,17 +2,11 @@
 	to extract its title, description etc."""
 
 from typing import DefaultDict, Optional
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium_firefox.firefox import Firefox
-from selenium import webdriver
-import geckodriver_autoinstaller
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-
+from selenium_firefox.firefox import Firefox, By, Keys
 from collections import defaultdict
 import json
 import time
-from Constant import *
+from .Constant import *
 from pathlib import Path
 import logging
 
@@ -31,18 +25,11 @@ class YouTubeUploader:
 	to extract its title, description etc"""
 
 	def __init__(self, video_path: str, metadata_json_path: Optional[str] = None, thumbnail_path: Optional[str] = None) -> None:
-		profile = webdriver.FirefoxProfile(r'C:\Users\anugr\AppData\Roaming\Mozilla\Firefox\Profiles\gpeq4zdh.default-release')
-		profile.set_preference("dom.webdriver.enabled", False)
-		profile.set_preference('useAutomationExtension', False)
-		profile.update_preferences()
-		desired = DesiredCapabilities.FIREFOX
-
-
 		self.video_path = video_path
 		self.thumbnail_path = thumbnail_path
 		self.metadata_dict = load_metadata(metadata_json_path)
 		current_working_dir = str(Path.cwd())
-		self.browser = Firefox(current_working_dir, current_working_dir, firefox_profile=profile,desired_capabilities=desired)
+		self.browser = Firefox(current_working_dir, current_working_dir)
 		self.logger = logging.getLogger(__name__)
 		self.logger.setLevel(logging.DEBUG)
 		self.__validate_inputs()

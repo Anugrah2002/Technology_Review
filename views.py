@@ -66,12 +66,12 @@ def requestVideo():
         
         #Youtube Uploading Via Selenium
         
-        video_path = p
+        # video_path = p
         
-        uploader = YouTubeUploader(video_path)#, metadata_path, thumbnail_path)
-        was_video_uploaded, video_id = uploader.upload()
-        print(was_video_uploaded)
-        print(video_id)
+        # uploader = YouTubeUploader(video_path)#, metadata_path, thumbnail_path)
+        # was_video_uploaded, video_id = uploader.upload()
+        # print(was_video_uploaded)
+        # print(video_id)
         #End of Youtube Uploading
         
         #os.system(command) #comment this to stop uploading to youtube
