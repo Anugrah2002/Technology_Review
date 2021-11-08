@@ -3,14 +3,14 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: youtube Technology_Review bot
-on:
-  schedule:
-    - cron: '* */9 * * *'
 # on:
-#   push:
-#     branches: [ master ]
-#   pull_request:
-#     branches: [ master ]
+#   schedule:
+#     - cron: '* */9 * * *'
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   hello_world_job:
