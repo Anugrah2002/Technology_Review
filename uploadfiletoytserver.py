@@ -5,9 +5,9 @@ import cloudinary.uploader
 
 
 cloudinary.config(
-  cloud_name = 'drpb4oxcc',
-  api_key = '354327896332831',
-  api_secret = 'CvetvSAc2xW33TRe_CaitVsi9S8'
+  cloud_name = 'detxlswii',
+  api_key = '474368939111198',
+  api_secret = 'gAmfegRLeJKZC66RWtNlW0Pp6tM'
 )
 
 
